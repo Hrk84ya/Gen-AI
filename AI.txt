@@ -170,7 +170,7 @@ An RNN processes sequential data inputs to produce specific sequential outputs.
 
 Long Short-Term Memory (LSTM)
 =============================
-An RNN variant that expands memory capacity to accommodate longer timelines, overcoming RNN limitations.
+Long Short-Term Memory (LSTM) is a type of recurrent neural network (RNN) designed to better capture long-term dependencies in sequential data. Traditional RNNs struggle with remembering information over long sequences due to issues like the vanishing gradient problem, but LSTMs address this with a unique architecture.
 
 Limitations of RNN:
 -------------------
