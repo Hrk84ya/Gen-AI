@@ -7,4 +7,15 @@ Netflix Recommendation
 Autonomous vehicles (Tesla, Waymo)
 Chatbot
 
-Gen-Ai is a powerful subset of AI focused on creating new content, whether it's text, images, audio, or even videos.
+Gen-Ai is a powerful subset of AI focused on creating new content, whether text, images, audio, or even videos.
+
+Machine learning (ML) is a branch of computer science that focuses on using data and algorithms to enable AI to imitate how humans learn, gradually improving its accuracy. (Learn and improve from experience)
+
+Definition of Machine Learning by Tom Mitchell:
+A subset of AI algorithms which learn without being explicitly programmed with rules. Use data to learn and match patterns ~ Tom Mitchell
+
+Types of Machine Learning:
+1. Supervised
+2. Unsupervised
+3. Reinforcement
+
