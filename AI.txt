@@ -1,144 +1,179 @@
-Data+Algorithms=AI Machines
+Generative AI
+=============
 
+Data + Algorithms = AI Machines
 
-Real-world examples:
-Apple Siri
-Netflix Recommendation
-Autonomous vehicles (Tesla, Waymo)
-Chatbot
+Real-world Examples:
+--------------------
+- Apple Siri
+- Netflix Recommendation
+- Autonomous Vehicles (Tesla, Waymo)
+- Chatbots
 
-Gen-AI is a powerful subset of AI focused on creating new content, whether text, images, audio, or even videos.
+Generative AI (Gen-AI)
+======================
+Generative AI is a powerful subset of AI focused on creating new content, including:
+- Text
+- Images
+- Audio
+- Videos
 
-Machine learning (ML) is a branch of computer science that focuses on using data and algorithms to enable AI to imitate how humans learn, gradually improving its accuracy. (Learn and improve from experience)
+Machine Learning (ML)
+=====================
+Machine Learning is a branch of computer science that uses data and algorithms to enable AI to imitate human learning, gradually improving accuracy through experience.
 
-Definition of Machine Learning by Tom Mitchell:
-A subset of AI algorithms which learn without being explicitly programmed with rules. Use data to learn and match patterns ~ Tom Mitchell.
+Definition by Tom Mitchell:
+----------------------------
+"A subset of AI algorithms that learn without being explicitly programmed with rules. They use data to learn and match patterns."
 
 Types of Machine Learning:
-1. Supervised
-2. Unsupervised
-3. Reinforcement
+---------------------------
+- Supervised Learning - models are trained on labelled data
+- Unsupervised Learning - models find patterns in unlabeled data
+- Reinforcement Learning - agents learn by interacting with their environment and receiving rewards or penalties
 
-Deep Learning: Deep learning is a method in artificial intelligence (AI) that teaches computers to process data in a way that is inspired by the human brain.
-The functionality of artificial neurons is inspired by the human brain.
+Deep Learning
+=============
+Deep learning teaches computers to process data in a way inspired by the human brain, utilizing artificial neurons. Deep learning models are computer files that data scientists have trained to perform tasks using an algorithm or a predefined set of steps. Businesses use deep learning models to analyze data and make predictions in various applications.
 
-Difference Between Black&White and Grayscale Images
+Uses of Deep Learning
+---------------------
+- Computer Vision
+- Natural Language Processing
+- Recommendation Engines
+- Speech Recognition
 
-Black and White Images
-Definition: Also known as binary images, these images contain only two colours: black and white.
-Colour Depth: Each pixel in a black-and-white image can only be either black (0) or white (1), representing two levels of brightness.
-Usage: Often used for simple graphics, text, or high-contrast images where colour is not necessary.
+Key Differences:
+----------------
+Black and White Images:
+- Definition: Also known as binary images, containing only black and white.
+- Color Depth: Each pixel is either black (0) or white (1).
+- Usage: Ideal for simple graphics, text, or high-contrast images.
 
-Grayscale Images
-Definition: Grayscale images contain shades of grey, ranging from black to white.
-Colour Depth: These images typically use 8 bits per pixel, allowing for 256 different shades of grey (from 0, which is black, to 255, which is white).
-Usage: Grayscale images are common in photography, medical imaging, and other applications where a range of brightness levels is important for detail.
+Grayscale Images:
+- Definition: Contains shades of grey from black to white.
+- Colour Depth: Typically uses 8 bits per pixel for 256 different shades.
+- Usage: Common in photography, medical imaging, and applications requiring detailed brightness levels.
 
+-> Grayscale images are most commonly utilised.
 
-Deep Learning:
-ANN - Artificial Neural Network (used for tabular data/structured data)
-CNN - Convolutional Neural Network (used for images and videos)
-RNN - Recurrent Neural Network ()
+Deep Learning Architectures:
+----------------------------
+- ANN (Artificial Neural Network): Used for structured data.
+- CNN (Convolutional Neural Network): Used for images and videos.
+- RNN (Recurrent Neural Network): Designed for sequential data.
 
-Difference between object detection and object recognition:
-Object detection involves identifying and localising objects with bounding boxes and providing detailed information about their presence and location. Object recognition focuses on categorising objects without the need for precise localisation.
+Object Detection vs. Object Recognition:
+----------------------------------------
+- Object Detection: Identifies and localizes objects using bounding boxes.
+- Object Recognition: Categorizes objects without precise localization.
 
-Feed-Forward Neural Network
-A Feedforward Neural Network (FNN) is a type of artificial neural network where connections between the nodes do not form cycles. The network consists of an input layer, one or more hidden layers, and an output layer. Information flows in one direction—from input to output—hence the name “feedforward”.
+Feed-Forward Neural Network (FNN)
+=================================
+A type of neural network where connections do not form cycles. Information flows in one direction: from input to output.
 
-Structure of a Feed-Forward Neural Network:
-1. Input Layer: The input layer consists of neurons that receive the input data. Each neuron in the input layer represents a feature of the input data.
-2. Hidden Layers: One or more hidden layers are placed between the input and output layers. These layers are responsible for learning the complex patterns in the data. Each neuron in a hidden layer applies a weighted sum of inputs followed by a non-linear activation function.
-3. Output Layer: The output layer provides the final output of the network. The number of neurons in this layer corresponds to the number of classes in a classification problem or the number of outputs in a regression problem.
+Structure:
+- Input Layer: Receives input data, with each neuron representing a feature.
+- Hidden Layers: Learn complex patterns from the data.
+- Output Layer: Provides final outputs based on the classification or regression problem.
 
+Backpropagation
+===============
+An iterative algorithm that minimizes the cost function by adjusting weights and biases.  During each epoch, the model learns by adapting these parameters to reduce loss.
 
-Backpropagation:
-Backpropagation is an iterative algorithm that helps to minimise the cost function by determining which weights and biases should be adjusted. During every epoch, the model learns by adapting the weights and biases to minimise the loss by moving down toward the gradient of the error. Backpropagation is an effective algorithm used to train artificial neural networks, especially in feed-forward neural networks.
+Activation Function: Rectified Linear Unit (ReLU)
+-------------------------------------------------
+The ReLU function outputs the input directly if positive; otherwise, it outputs zero. It’s widely used due to its effectiveness in training and performance.
 
-Rectified Linear Unit (ReLU)
-The rectified linear activation function, or ReLU for short, is a piecewise linear function that will output the input directly if it is positive. Otherwise, it will output zero. It has become the default activation function for many types of neural networks because a model that uses it is easier to train and often achieves better performance.
+Example Code for Neural Network:
+--------------------------------
+model.add(Dense(16, input_dim=X_train.shape[1], activation='relu'))  # Input + Hidden Layer
+model.add(Dense(16, activation="relu"))  # Second Hidden Layer
 
-#Code for neural network
-model.add(Dense(16, input_dim=X_train.shape[1],activation='relu)) # to create input layer + hidden layer
-model.add(Dense(16,activation="relu")) # second hidden layer
+Adam Optimizer
+==============
+The Adaptive Moment Estimation (Adam) algorithm is efficient for optimization in gradient descent, particularly with large datasets.
 
-Adam Optimizer (adam)
-Adaptive Moment Estimation is an algorithm for optimisation techniques for gradient descent. The method is efficient when working with large problems involving a lot of data or parameters.
+Epoch
+=====
+An epoch refers to one complete pass through the entire training dataset. During an epoch, every training sample in the dataset is processed by the model, and its weights and biases are updated by the computed loss or error.
 
-Epoch: An epoch is one complete pass through the entire training dataset. One pass means a complete forward and backward pass through the entire training dataset. 
-
-
-Real-world Application of CNN:
-1. Object Detection
-2. OCR
-3. Facial Recognition
-4. Self-Driving Cars
-5. Healthcare
-6. Agriculture
-7. Security
+Real-world Applications of CNN:
+-------------------------------
+- Object Detection
+- Optical Character Recognition (OCR)
+- Facial Recognition
+- Self-Driving Cars
+- Healthcare
+- Agriculture
+- Security
 
 Layers of CNN:
-1. Convolution
-2. Max Pooling
-3. Flattening
-4. Full Connection
+--------------
+- Convolution: Extracts features from images.
+- Max Pooling: Reduces resolution while retaining important features.
+- Flattening: Converts the pooled feature map into a flat vector.
+- Full Connection: Links the flattened vector to the output.
 
-Convolution is the first layer to extract features from an input image. It preserves the relationship between pixels by learning image features using small squares of input data. It is a mathematical operation that takes two inputs, such as an image matrix and a filter or kernel.
+Convolution and Padding
+=======================
+- Convolution: A mathematical operation that extracts features by learning image characteristics using small data squares.
+- Padding: Adds zeros to the input matrix to maintain spatial dimensions after filtering.
 
-Padding: Padding is the process of adding layers of zeros or other values outside the actual data in an input matrix. The primary purpose of padding is to preserve the spatial size of the input so that the output, after applying filters (kernels), remains the same size or adjusts it according to the desired output dimensions.
+Pooling Layers:
+---------------
+- Max Pooling: Selects the maximum element in the feature map region.
+- Average Pooling: Computes the average of the elements in the feature map region.
 
-Pooling layer: It operates on each feature map independently. This reduces the resolution of the feature map by reducing the spatial dimensions (height and width of an image), effectively downsampling the feature map while retaining the most important features. This helps to decrease the computational load, prevent overfitting, and provide a form of translational invariance in the model.
+Natural Language Processing (NLP)
+=================================
+NLP gives computers the ability to interpret and understand human language.
 
-Types of pooling layers: 
-1. Max pooling: It is a pooling operation that selects the maximum element from the region of the feature map covered by the filter. Thus, the output after the max-pooling layer would be a feature map containing the most prominent features of the previous feature map. 
-
-2. Average pooling: It computes the average of the elements present in the region of the feature map covered by the filter. Thus, while max pooling gives the most prominent feature in a particular patch of the feature map, average pooling gives the average of features present in a patch. 
-
-
-Natural Language Processing
-Natural language processing (NLP) is a machine learning technology that gives computers the ability to interpret, manipulate, and comprehend human language.
-
-Challenges of NLP
-1. Ambiguity
-2. Contextual word
-3. Slang
-4. Sarcasm
+Challenges of NLP:
+------------------
+- Ambiguity
+- Contextual Variability
+- Slang
+- Sarcasm
 
 NLP Pipeline Steps:
+-------------------
 1. Data Acquisition
-2. Text preprocessing
-3. Feature engineering
-4. Modelling and evaluation
+2. Text Preprocessing
+3. Feature Engineering
+4. Modelling and Evaluation
 5. Deployment
 
+Text Processing Techniques:
+----------------------------
+Basic Text Processing:
+- HTML tag removal
+- Handling emojis
+- Basic spell checks
+- Tokenization
+- Stop word removal
+- Stemming/Lemmatization
+- Lowercasing
 
-Text Processing
-1. Basic Text Processing
-2. Advance Text Processing
+Advanced Text Processing:
+- Parts of Speech Tagging
+- Parsing
+- Coreference Resolution
 
-Basic Text Processing: HTML tag removal, Handling Emojis, Basic spell checks, Tokenisation, Stop word removal, Stemming/Lemmatization, Lowercasing.
+Stop Words:
+-----------
+Stop words are common words removed from text-processing tasks due to their insignificance. Examples include: "the", "and", "is", "a", "in".
 
-Advanced Text Processing: Parts of speech tagging, Parsing, Coreference Resolution
+Recurrent Neural Network (RNN)
+==============================
+An RNN processes sequential data inputs to produce specific sequential outputs.
 
-Stop Words: Stop words are frequently used words that are often removed from text processing tasks and search engine algorithms because they are considered insignificant.
-Examples: "The", "and", "is", "a", "an", "in", "of", "on", "are", "be", "if", "into"
+Long Short-Term Memory (LSTM)
+=============================
+An RNN variant that expands memory capacity to accommodate longer timelines, overcoming RNN limitations.
 
-RNN (Recurrent Neural Network)
-A recurrent neural network (RNN) is a deep learning model that is trained to process and convert a sequential data input into a specific sequential data output.
-
-LSTM
-Long short-term memory (LSTM) is an RNN variant that enables the model to expand its memory capacity to accommodate a longer timeline. An RNN can only remember the immediate past input. It can’t use inputs from several previous sequences to improve its prediction. 
-
-Limitations of RNN
-1. Exploding gradient
-2. Vanishing Gradient
-3. Slow training time
-
-
-
-
-
-
-
-
-
+Limitations of RNN:
+-------------------
+- Exploding Gradient
+- Vanishing Gradient
+- Slow Training Time
