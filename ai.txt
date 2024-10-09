@@ -95,10 +95,21 @@ Types of pooling layers:
 2. Average pooling: It computes the average of the elements present in the region of the feature map covered by the filter. Thus, while max pooling gives the most prominent feature in a particular patch of the feature map, average pooling gives the average of features present in a patch. 
 
 
+Natural Language Processing
+Natural language processing (NLP) is a machine learning technology that gives computers the ability to interpret, manipulate, and comprehend human language.
 
+Challenges of NLP
+1. Ambiguity
+2. Contextual word
+3. Slang
+4. Sarcasm
 
-
-
+NLP Pipeline Steps:
+1. Data Acquisition
+2. Text preprocessing
+3. Feature engineering
+4. Modelling and evaluation
+5. Deployment
 
 
 
