@@ -12,7 +12,7 @@ Gen-AI is a powerful subset of AI focused on creating new content, whether text,
 Machine learning (ML) is a branch of computer science that focuses on using data and algorithms to enable AI to imitate how humans learn, gradually improving its accuracy. (Learn and improve from experience)
 
 Definition of Machine Learning by Tom Mitchell:
-A subset of AI algorithms which learn without being explicitly programmed with rules. Use data to learn and match patterns ~ Tom Mitchell
+A subset of AI algorithms which learn without being explicitly programmed with rules. Use data to learn and match patterns ~ Tom Mitchell.
 
 Types of Machine Learning:
 1. Supervised
@@ -20,7 +20,7 @@ Types of Machine Learning:
 3. Reinforcement
 
 Deep Learning: Deep learning is a method in artificial intelligence (AI) that teaches computers to process data in a way that is inspired by the human brain.
-The functionality of artificial neurons is inspired by the human brain
+The functionality of artificial neurons is inspired by the human brain.
 
 Difference Between Black&White and Grayscale Images
 
@@ -41,5 +41,22 @@ CNN - Convolutional Neural Network (used for images and videos)
 RNN - Recurrent Neural Network ()
 
 Difference between object detection and object recognition:
-Object detection involves identifying and localizing objects with bounding boxes, and providing detailed information about their presence and location. Object recognition focuses on categorizing objects without the need for precise localization.
+Object detection involves identifying and localising objects with bounding boxes and providing detailed information about their presence and location. Object recognition focuses on categorising objects without the need for precise localisation.
+
+Feed-Forward Neural Network
+A Feedforward Neural Network (FNN) is a type of artificial neural network where connections between the nodes do not form cycles. The network consists of an input layer, one or more hidden layers, and an output layer. Information flows in one direction—from input to output—hence the name “feedforward”.
+
+Structure of a Feedforward Neural Network:
+1. Input Layer: The input layer consists of neurons that receive the input data. Each neuron in the input layer represents a feature of the input data.
+2. Hidden Layers: One or more hidden layers are placed between the input and output layers. These layers are responsible for learning the complex patterns in the data. Each neuron in a hidden layer applies a weighted sum of inputs followed by a non-linear activation function.
+3. Output Layer: The output layer provides the final output of the network. The number of neurons in this layer corresponds to the number of classes in a classification problem or the number of outputs in a regression problem.
+
+
+Backpropagation:
+Backpropagation is an iterative algorithm that helps to minimise the cost function by determining which weights and biases should be adjusted. During every epoch, the model learns by adapting the weights and biases to minimise the loss by moving down toward the gradient of the error. Backpropagation is an effective algorithm used to train artificial neural networks, especially in feed-forward neural networks.
+
+
+
+
+
 
