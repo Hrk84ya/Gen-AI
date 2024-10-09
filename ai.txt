@@ -116,9 +116,29 @@ Text Processing
 1. Basic Text Processing
 2. Advance Text Processing
 
-Basic Text Processing: HTML tag removal, Handling Emojis, Basic spell checks, Tokenisation, Stop word removal, Lemmatization, Lowercasing
+Basic Text Processing: HTML tag removal, Handling Emojis, Basic spell checks, Tokenisation, Stop word removal, Stemming/Lemmatization, Lowercasing.
 
 Advanced Text Processing: Parts of speech tagging, Parsing, Coreference Resolution
+
+Stop Words: Stop words are frequently used words that are often removed from text processing tasks and search engine algorithms because they are considered insignificant.
+Examples: "The", "and", "is", "a", "an", "in", "of", "on", "are", "be", "if", "into"
+
+RNN (Recurrent Neural Network)
+A recurrent neural network (RNN) is a deep learning model that is trained to process and convert a sequential data input into a specific sequential data output.
+
+LSTM
+Long short-term memory (LSTM) is an RNN variant that enables the model to expand its memory capacity to accommodate a longer timeline. An RNN can only remember the immediate past input. It can’t use inputs from several previous sequences to improve its prediction. 
+
+Limitations of RNN
+1. Exploding gradient
+2. Vanishing Gradient
+3. Slow training time
+
+
+
+
+
+
 
 
 
