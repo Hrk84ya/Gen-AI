@@ -116,7 +116,7 @@ Text Processing
 1. Basic Text Processing
 2. Advance Text Processing
 
-Basic Text Processing: HTML tag removal, Handling Emojis, Basic spell checks, Tokenisation, Lemmatization, Lowercasing
+Basic Text Processing: HTML tag removal, Handling Emojis, Basic spell checks, Tokenisation, Stop word removal, Lemmatization, Lowercasing
 
 Advanced Text Processing: Parts of speech tagging, Parsing, Coreference Resolution
 
