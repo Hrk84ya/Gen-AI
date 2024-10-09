@@ -20,3 +20,23 @@ Types of Machine Learning:
 3. Reinforcement
 
 Deep Learning: Deep learning is a method in artificial intelligence (AI) that teaches computers to process data in a way that is inspired by the human brain.
+The functionality of artificial neurons is inspired by the human brain
+
+Difference Between Black&White and Grayscale Images
+
+Black and White Images
+Definition: Also known as binary images, these images contain only two colours: black and white.
+Colour Depth: Each pixel in a black-and-white image can only be either black (0) or white (1), representing two levels of brightness.
+Usage: Often used for simple graphics, text, or high-contrast images where colour is not necessary.
+
+Grayscale Images
+Definition: Grayscale images contain shades of grey, ranging from black to white.
+Colour Depth: These images typically use 8 bits per pixel, allowing for 256 different shades of grey (from 0, which is black, to 255, which is white).
+Usage: Grayscale images are common in photography, medical imaging, and other applications where a range of brightness levels is important for detail.
+
+
+Deep Learning:
+ANN - Artificial Neural Network (used for tabular data/structured data)
+CNN - Convolutional Neural Network (used for images and videos)
+RNN - Recurrent Neural Network ()
+
