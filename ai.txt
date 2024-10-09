@@ -93,3 +93,12 @@ Types of pooling layers:
 1. Max pooling: It is a pooling operation that selects the maximum element from the region of the feature map covered by the filter. Thus, the output after the max-pooling layer would be a feature map containing the most prominent features of the previous feature map. 
 
 2. Average pooling: It computes the average of the elements present in the region of the feature map covered by the filter. Thus, while max pooling gives the most prominent feature in a particular patch of the feature map, average pooling gives the average of features present in a patch. 
+
+
+
+
+
+
+
+
+
