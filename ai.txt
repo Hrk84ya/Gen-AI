@@ -7,7 +7,7 @@ Netflix Recommendation
 Autonomous vehicles (Tesla, Waymo)
 Chatbot
 
-Gen-Ai is a powerful subset of AI focused on creating new content, whether text, images, audio, or even videos.
+Gen-AI is a powerful subset of AI focused on creating new content, whether text, images, audio, or even videos.
 
 Machine learning (ML) is a branch of computer science that focuses on using data and algorithms to enable AI to imitate how humans learn, gradually improving its accuracy. (Learn and improve from experience)
 
@@ -39,4 +39,7 @@ Deep Learning:
 ANN - Artificial Neural Network (used for tabular data/structured data)
 CNN - Convolutional Neural Network (used for images and videos)
 RNN - Recurrent Neural Network ()
+
+Difference between object detection and object recognition:
+Object detection involves identifying and localizing objects with bounding boxes, and providing detailed information about their presence and location. Object recognition focuses on categorizing objects without the need for precise localization.
 
