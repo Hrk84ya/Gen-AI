@@ -1,0 +1,10 @@
+Data+Algorithms=AI Machines
+
+
+Real-world examples:
+Apple Siri
+Netflix Recommendation
+Autonomous vehicles (Tesla, Waymo)
+Chatbot
+
+Gen-Ai is a powerful subset of AI focused on creating new content, whether it's text, images, audio, or even videos.
