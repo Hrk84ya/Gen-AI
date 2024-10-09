@@ -46,7 +46,7 @@ Object detection involves identifying and localising objects with bounding boxes
 Feed-Forward Neural Network
 A Feedforward Neural Network (FNN) is a type of artificial neural network where connections between the nodes do not form cycles. The network consists of an input layer, one or more hidden layers, and an output layer. Information flows in one direction—from input to output—hence the name “feedforward”.
 
-Structure of a Feedforward Neural Network:
+Structure of a Feed-Forward Neural Network:
 1. Input Layer: The input layer consists of neurons that receive the input data. Each neuron in the input layer represents a feature of the input data.
 2. Hidden Layers: One or more hidden layers are placed between the input and output layers. These layers are responsible for learning the complex patterns in the data. Each neuron in a hidden layer applies a weighted sum of inputs followed by a non-linear activation function.
 3. Output Layer: The output layer provides the final output of the network. The number of neurons in this layer corresponds to the number of classes in a classification problem or the number of outputs in a regression problem.
@@ -68,5 +68,28 @@ Adaptive Moment Estimation is an algorithm for optimisation techniques for gradi
 Epoch: An epoch is one complete pass through the entire training dataset. One pass means a complete forward and backward pass through the entire training dataset. 
 
 
+Real-world Application of CNN:
+1. Object Detection
+2. OCR
+3. Facial Recognition
+4. Self-Driving Cars
+5. Healthcare
+6. Agriculture
+7. Security
 
+Layers of CNN:
+1. Convolution
+2. Max Pooling
+3. Flattening
+4. Full Connection
 
+Convolution is the first layer to extract features from an input image. It preserves the relationship between pixels by learning image features using small squares of input data. It is a mathematical operation that takes two inputs, such as an image matrix and a filter or kernel.
+
+Padding: Padding is the process of adding layers of zeros or other values outside the actual data in an input matrix. The primary purpose of padding is to preserve the spatial size of the input so that the output, after applying filters (kernels), remains the same size or adjusts it according to the desired output dimensions.
+
+Pooling layer: It operates on each feature map independently. This reduces the resolution of the feature map by reducing the spatial dimensions (height and width of an image), effectively downsampling the feature map while retaining the most important features. This helps to decrease the computational load, prevent overfitting, and provide a form of translational invariance in the model.
+
+Types of pooling layers: 
+1. Max pooling: It is a pooling operation that selects the maximum element from the region of the feature map covered by the filter. Thus, the output after the max-pooling layer would be a feature map containing the most prominent features of the previous feature map. 
+
+2. Average pooling: It computes the average of the elements present in the region of the feature map covered by the filter. Thus, while max pooling gives the most prominent feature in a particular patch of the feature map, average pooling gives the average of features present in a patch. 
