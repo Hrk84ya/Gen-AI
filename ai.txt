@@ -55,7 +55,17 @@ Structure of a Feedforward Neural Network:
 Backpropagation:
 Backpropagation is an iterative algorithm that helps to minimise the cost function by determining which weights and biases should be adjusted. During every epoch, the model learns by adapting the weights and biases to minimise the loss by moving down toward the gradient of the error. Backpropagation is an effective algorithm used to train artificial neural networks, especially in feed-forward neural networks.
 
+Rectified Linear Unit (ReLU)
+The rectified linear activation function, or ReLU for short, is a piecewise linear function that will output the input directly if it is positive. Otherwise, it will output zero. It has become the default activation function for many types of neural networks because a model that uses it is easier to train and often achieves better performance.
 
+#Code for neural network
+model.add(Dense(16, input_dim=X_train.shape[1],activation='relu)) # to create input layer + hidden layer
+model.add(Dense(16,activation="relu")) # second hidden layer
+
+Adam Optimizer (adam)
+Adaptive Moment Estimation is an algorithm for optimisation techniques for gradient descent. The method is efficient when working with large problems involving a lot of data or parameters.
+
+Epoch: An epoch is one complete pass through the entire training dataset. One pass means a complete forward and backward pass through the entire training dataset. 
 
 
 
