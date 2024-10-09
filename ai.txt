@@ -112,4 +112,13 @@ NLP Pipeline Steps:
 5. Deployment
 
 
+Text Processing
+1. Basic Text Processing
+2. Advance Text Processing
+
+Basic Text Processing: HTML tag removal, Handling Emojis, Basic spell checks, Tokenisation, Lemmatization, Lowercasing
+
+Advanced Text Processing: Parts of speech tagging, Parsing, Coreference Resolution
+
+
 
