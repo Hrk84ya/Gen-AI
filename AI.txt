@@ -39,19 +39,19 @@ Clustering is an unsupervised machine learning technique designed to group unlab
 
 Types of Clustering
 -------------------
-1. Centroid-based clustering
-The centroid of a cluster is the arithmetic mean of all the points in the cluster. Centroid-based clustering organizes the data into non-hierarchical clusters. Centroid-based clustering algorithms are efficient but sensitive to initial conditions and outliers. Of these, k-means is the most widely used. It requires users to define the number of centroids, k, and works well with clusters of roughly equal size.
+1. Centroid-based clustering:
+   The centroid of a cluster is the arithmetic mean of all the points in the cluster. Centroid-based clustering organizes the data into non-hierarchical clusters. Centroid-based clustering algorithms are efficient but sensitive to initial conditions and outliers. Of these, k-means is the most widely used. It requires users to define the number of centroids, k, and works well with clusters of roughly equal size.
 
-2. Density-based clustering
-Density-based clustering connects contiguous areas of high example density into clusters. This allows for the discovery of any number of clusters of any shape. Outliers are not assigned to clusters. These algorithms have difficulty with clusters of different density and data with high dimensions.
+2. Density-based clustering:
+   Density-based clustering connects contiguous areas of high example density into clusters. This allows for the discovery of any number of clusters of any shape. Outliers are not assigned to clusters. These algorithms have difficulty with clusters of different density and data with high dimensions.
 
-3. Distribution-based clustering
-This clustering approach assumes data is composed of probabilistic distributions, such as Gaussian distributions. As distance from the distribution's center increases, the probability that a point belongs to the distribution decreases. The bands show that decrease in probability.
+3. Distribution-based clustering:
+   This clustering approach assumes data is composed of probabilistic distributions, such as Gaussian distributions. As distance from the distribution's center increases, the probability that a point belongs to the distribution decreases. The bands show that decrease in probability.
 
-4. Hierarchical clustering
-Hierarchical clustering creates a tree of clusters. Hierarchical clustering, not surprisingly, is well suited to hierarchical data, such as taxonomies. Any number of clusters can be chosen by cutting the tree at the right level. 
+4. Hierarchical clustering:
+   Hierarchical clustering creates a tree of clusters. Hierarchical clustering, not surprisingly, is well suited to hierarchical data, such as taxonomies. Any number of clusters can be chosen by cutting the tree at the right level. 
 
-@ A regression model predicts a numeric value. For example, a weather model that predicts the amount of rain, in inches or millimetres, is a regression model.
+@ A regression model predicts a numeric value. For example, a weather model that predicts the amount of rain, in inches or millimeters, is a regression model.
 @ Classification models predict the likelihood that something belongs to a category. Unlike regression models, whose output is a number, classification models output a value that states whether or not something belongs to a particular category. For example, classification models are used to predict if an email is spam or if a photo contains a cat.
 
 Classification models are divided into two groups: binary classification and multiclass classification. Binary classification models output a value from a class that contains only two values. Multiclass classification models output a value from a class that contains more than two values.
@@ -59,6 +59,7 @@ Classification models are divided into two groups: binary classification and mul
 # Once we're satisfied with the results from evaluating the model, we can use the model to make predictions, called inferences, on unlabeled examples.
 
 Decision Forest
+---------------
 Decision forests are most effective when you have a tabular dataset (data you might represent in a spreadsheet, csv file, or database table). Tabular data is one of the most common data formats, and decision forests should be your “go-to” solution for modeling it. Decision forests perform best when lots of data is available. Decision forests typically infer faster than comparable neural networks. Decision forest models are composed of decision trees.
 
 A decision tree is a model composed of a collection of "questions" organized hierarchically in the shape of a tree. The questions are usually called a condition, a split, or a test. Each non-leaf node contains a condition, and each leaf node contains a prediction.
@@ -98,7 +99,7 @@ Grayscale Images:
 - Colour Depth: Typically uses 8 bits per pixel for 256 different shades.
 - Usage: Common in photography, medical imaging, and applications requiring detailed brightness levels.
 
--> Grayscale images are most commonly utilised.
+-> Grayscale images are most commonly utilized.
 
 Deep Learning Architectures:
 ----------------------------
@@ -111,12 +112,11 @@ Object Detection vs. Object Recognition:
 - Object Detection: Identifies and localizes objects using bounding boxes.
 - Object Recognition: Categorizes objects without precise localization.
 
-Recommendation system
+Recommendation System
 =====================
 - A recommendation system helps users find compelling content in a large corpus
 # Embedding: A mapping from a discrete set (in this case, the set of queries, or the set of items to recommend) to a vector space called the embedding space. Many recommendation systems rely on learning an appropriate embedding representation of the queries and items.
-The primary components of a recommender system: candidate generation, scoring, and re-ranking
-
+The primary components of a recommender system: candidate generation, scoring, and re-ranking.
 
 Feed-Forward Neural Network (FNN)
 =================================
@@ -129,7 +129,7 @@ Structure:
 
 Backpropagation
 ===============
-An iterative algorithm that minimizes the cost function by adjusting weights and biases.  During each epoch, the model learns by adapting these parameters to reduce loss.
+An iterative algorithm that minimizes the cost function by adjusting weights and biases. During each epoch, the model learns by adapting these parameters to reduce loss.
 
 Activation Function: Rectified Linear Unit (ReLU)
 -------------------------------------------------
@@ -191,7 +191,7 @@ NLP Pipeline Steps:
 1. Data Acquisition
 2. Text Preprocessing
 3. Feature Engineering
-4. Modelling and Evaluation
+4. Modeling and Evaluation
 5. Deployment
 
 Text Processing Techniques:
@@ -228,8 +228,8 @@ Limitations of RNN:
 - Vanishing Gradient
 - Slow Training Time
 
-
-Key-Concepts behind GenAI
+Key-Concepts behind Gen-AI
+--------------------------
 1. GANs (Generative Adversarial Networks)
 2. Transformers
 3. VAEs (Variational Autoencoders)
@@ -259,7 +259,6 @@ Real-life application of Encoder-Decoder
 - Google machine translation
 - Speech Recognition
 - Time Series Analysis
-
 
 Generative Adversarial Networks (GANs)
 ====================================== 
@@ -291,36 +290,15 @@ Data Augmentation
 =================
 Data augmentation is a process of generating new training data by applying various image transformations such as flipping, cropping, rotating, and colour jittering. The goal is to increase the diversity of training data and avoid overfitting, which can lead to better performance of machine learning models. Deep learning models rely on large volumes of diverse data to develop accurate predictions in various contexts. Data augmentation supplements the creation of data variations that can help a model improve the accuracy of its predictions. 
 
-
 Transformers
 ============
-came into existence in 2017
 Transformers are a type of neural network architecture that transforms or changes an input sequence into an output sequence. They do this by learning context and tracking relationships between sequence components.
 Transformer models fundamentally changed NLP technologies by enabling models to handle such long-range dependencies in text.
 
-It uses a self-attention mechanism to capture relationships between different words (or tokens) in a sequence, regardless of their distance from each other, allowing the model to weigh the importance of each word when generating or processing text. Instead of processing data in order, the mechanism enables the model to look at different parts of the sequence all at once and determine which parts are most important. 
-
-
-# Since the dataset is huge, we don't build the transformer model from scratch, as it will take months to train,
+It uses a self-attention mechanism to capture relationships between different words (or tokens) in a sequence, regardless of their distance from each other, allowing the model to weigh the importance of each word when generating or processing text. Instead of processing data in order, the mechanism enables the model to look at different parts of the sequence all at once and determine which parts are most important.
 
 Benefits of Transformers:
 - Enable large-scale models
 - Enable faster customization
 - Facilitate multi-modal AI systems
 - AI research and industry innovation
-
-
-
-
-df.sample(n): to return n random rows from the data
-
-
-
-
-
-
-
-
-
-
-
