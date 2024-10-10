@@ -93,6 +93,13 @@ Object Detection vs. Object Recognition:
 - Object Detection: Identifies and localizes objects using bounding boxes.
 - Object Recognition: Categorizes objects without precise localization.
 
+Recommendation system
+=====================
+- A recommendation system helps users find compelling content in a large corpus
+# Embedding: A mapping from a discrete set (in this case, the set of queries, or the set of items to recommend) to a vector space called the embedding space. Many recommendation systems rely on learning an appropriate embedding representation of the queries and items.
+The primary components of a recommender system: candidate generation, scoring, and re-ranking
+
+
 Feed-Forward Neural Network (FNN)
 =================================
 A type of neural network where connections do not form cycles. Information flows in one direction: from input to output.
