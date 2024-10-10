@@ -177,3 +177,16 @@ Limitations of RNN:
 - Exploding Gradient
 - Vanishing Gradient
 - Slow Training Time
+
+
+Key-Concepts behind GenAI
+1. GANs (Generative Adversarial Networks)
+2. Transformers
+3. VAEs (Variational Autoencoders)
+4. Diffusion Models
+
+
+
+
+
+
