@@ -185,6 +185,11 @@ Key-Concepts behind GenAI
 3. VAEs (Variational Autoencoders)
 4. Diffusion Models
 
+Image Generation is a process of using deep learning algorithms such as VAEs, GANs, and, more recently, Stable Diffusion to create new images that are visually similar to real-world images. Image Generation can be used for data augmentation to improve the performance of machine learning models, as well as in creating art, generating product images, and more.
+Example: MidJourney, DALL-E
+
+Video Generation involves deep learning methods such as GANs and Video Diffusion to generate new videos by predicting frames based on previous frames. Video Generation can be often seen in use with Speech Generation. The models used for speech generation can be powered by Transformers. Speech Generation can be used in text-to-speech conversion, virtual assistants, and voice cloning. 
+Example: DeepBrain and Synthesia
 
 Encoder-Decoder Architecture
 ----------------------------
