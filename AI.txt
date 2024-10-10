@@ -237,6 +237,10 @@ Discriminator (D):
 
 @ Small Language Models (SLMs) focus on specialised tasks with less data. Retrieval-augmented generation (RAG) enhances these models by pulling in external information for more accurate results. AI Agents use generative AI to autonomously perform tasks such as writing or research. Together, they represent cutting-edge advancements in automation and creativity.
 
+Data Augmentation
+=================
+Data augmentation is a process of generating new training data by applying various image transformations such as flipping, cropping, rotating, and colour jittering. The goal is to increase the diversity of training data and avoid overfitting, which can lead to better performance of machine learning models. Deep learning models rely on large volumes of diverse data to develop accurate predictions in various contexts. Data augmentation supplements the creation of data variations that can help a model improve the accuracy of its predictions. 
+
 
 
 
