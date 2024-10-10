@@ -41,9 +41,21 @@ Classification models are divided into two groups: binary classification and mul
 # Once we're satisfied with the results from evaluating the model, we can use the model to make predictions, called inferences, on unlabeled examples.
 
 Decision Forest
-Decision forests are most effective when you have a tabular dataset (data you might represent in a spreadsheet, csv file, or database table). Tabular data is one of the most common data formats, and decision forests should be your “go-to” solution for modeling it. Decision forests perform best when lots of data is available.
+Decision forests are most effective when you have a tabular dataset (data you might represent in a spreadsheet, csv file, or database table). Tabular data is one of the most common data formats, and decision forests should be your “go-to” solution for modeling it. Decision forests perform best when lots of data is available. Decision forests typically infer faster than comparable neural networks. Decision forest models are composed of decision trees.
 
+A decision tree is a model composed of a collection of "questions" organized hierarchically in the shape of a tree. The questions are usually called a condition, a split, or a test. Each non-leaf node contains a condition, and each leaf node contains a prediction.
+Inference of a decision tree model is computed by routing an example from the root (at the top) to one of the leaf nodes (at the bottom) according to the conditions. The value of the reached leaf is the decision tree's prediction. The set of visited nodes is called the inference path.
 
+Types of conditions: 
+An axis-aligned condition involves only a single feature. An oblique condition involves multiple features. 
+For example, the following is an axis-aligned condition: num_legs ≥ 2
+For example, the following is an oblique condition: num_legs ≥ num_fingers
+
+Conditions with two possible outcomes (for example, true or false) are called binary conditions. Decision trees containing only binary conditions are called binary decision trees.
+
+Non-binary conditions have more than two possible outcomes. Therefore, non-binary conditions have more discriminative power than binary conditions. Decisions containing one or more non-binary conditions are called non-binary decision trees.
+
+# The most common type of condition is the threshold condition expressed as: feature ≥ threshold
 
 Deep Learning
 =============
