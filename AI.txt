@@ -33,6 +33,24 @@ Types of Machine Learning:
 - Unsupervised Learning - models find patterns in unlabeled data
 - Reinforcement Learning - agents learn by interacting with their environment and receiving rewards or penalties
 
+Clustering
+==========
+Clustering is an unsupervised machine learning technique designed to group unlabeled examples based on their similarity to each other. (If the examples are labeled, this kind of grouping is called classification.)
+
+Types of Clustering
+-------------------
+1. Centroid-based clustering
+The centroid of a cluster is the arithmetic mean of all the points in the cluster. Centroid-based clustering organizes the data into non-hierarchical clusters. Centroid-based clustering algorithms are efficient but sensitive to initial conditions and outliers. Of these, k-means is the most widely used. It requires users to define the number of centroids, k, and works well with clusters of roughly equal size.
+
+2. Density-based clustering
+Density-based clustering connects contiguous areas of high example density into clusters. This allows for the discovery of any number of clusters of any shape. Outliers are not assigned to clusters. These algorithms have difficulty with clusters of different density and data with high dimensions.
+
+3. Distribution-based clustering
+This clustering approach assumes data is composed of probabilistic distributions, such as Gaussian distributions. As distance from the distribution's center increases, the probability that a point belongs to the distribution decreases. The bands show that decrease in probability.
+
+4. Hierarchical clustering
+Hierarchical clustering creates a tree of clusters. Hierarchical clustering, not surprisingly, is well suited to hierarchical data, such as taxonomies. Any number of clusters can be chosen by cutting the tree at the right level. 
+
 @ A regression model predicts a numeric value. For example, a weather model that predicts the amount of rain, in inches or millimetres, is a regression model.
 @ Classification models predict the likelihood that something belongs to a category. Unlike regression models, whose output is a number, classification models output a value that states whether or not something belongs to a particular category. For example, classification models are used to predict if an email is spam or if a photo contains a cat.
 
