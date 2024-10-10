@@ -35,23 +35,23 @@ Types of Machine Learning:
 
 Clustering
 ==========
-Clustering is an unsupervised machine learning technique designed to group unlabeled examples based on their similarity to each other. (If the examples are labeled, this kind of grouping is called classification.)
+Clustering is an unsupervised machine learning technique designed to group unlabeled examples based on their similarity to each other. (If the examples are labelled, this kind of grouping is called classification.)
 
 Types of Clustering
 -------------------
 1. Centroid-based clustering:
-   The centroid of a cluster is the arithmetic mean of all the points in the cluster. Centroid-based clustering organizes the data into non-hierarchical clusters. Centroid-based clustering algorithms are efficient but sensitive to initial conditions and outliers. Of these, k-means is the most widely used. It requires users to define the number of centroids, k, and works well with clusters of roughly equal size.
+   The centroid of a cluster is the arithmetic mean of all the points in the cluster. Centroid-based clustering organises the data into non-hierarchical clusters. Centroid-based clustering algorithms are efficient but sensitive to initial conditions and outliers. Of these, k-means is the most widely used. It requires users to define the number of centroids, k and works well with clusters of roughly equal size.
 
 2. Density-based clustering:
-   Density-based clustering connects contiguous areas of high example density into clusters. This allows for the discovery of any number of clusters of any shape. Outliers are not assigned to clusters. These algorithms have difficulty with clusters of different density and data with high dimensions.
+   Density-based clustering connects contiguous areas of high example density into clusters. This allows for the discovery of any number of clusters of any shape. Outliers are not assigned to clusters. These algorithms have difficulty with clusters of different densities and data with high dimensions.
 
 3. Distribution-based clustering:
-   This clustering approach assumes data is composed of probabilistic distributions, such as Gaussian distributions. As distance from the distribution's center increases, the probability that a point belongs to the distribution decreases. The bands show that decrease in probability.
+   This clustering approach assumes data is composed of probabilistic distributions, such as Gaussian distributions. As the distance from the distribution's centre increases, the probability that a point belongs to the distribution decreases. The bands show a decrease in probability.
 
 4. Hierarchical clustering:
    Hierarchical clustering creates a tree of clusters. Hierarchical clustering, not surprisingly, is well suited to hierarchical data, such as taxonomies. Any number of clusters can be chosen by cutting the tree at the right level. 
 
-@ A regression model predicts a numeric value. For example, a weather model that predicts the amount of rain, in inches or millimeters, is a regression model.
+@ A regression model predicts a numeric value. For example, a weather model that predicts the amount of rain in inches or millimetres is a regression model.
 @ Classification models predict the likelihood that something belongs to a category. Unlike regression models, whose output is a number, classification models output a value that states whether or not something belongs to a particular category. For example, classification models are used to predict if an email is spam or if a photo contains a cat.
 
 Classification models are divided into two groups: binary classification and multiclass classification. Binary classification models output a value from a class that contains only two values. Multiclass classification models output a value from a class that contains more than two values.
@@ -60,9 +60,9 @@ Classification models are divided into two groups: binary classification and mul
 
 Decision Forest
 ---------------
-Decision forests are most effective when you have a tabular dataset (data you might represent in a spreadsheet, csv file, or database table). Tabular data is one of the most common data formats, and decision forests should be your “go-to” solution for modeling it. Decision forests perform best when lots of data is available. Decision forests typically infer faster than comparable neural networks. Decision forest models are composed of decision trees.
+Decision forests are most effective when you have a tabular dataset (data you might represent in a spreadsheet, CSV file, or database table). Tabular data is one of the most common data formats, and decision forests should be your “go-to” solution for modelling it. Decision forests perform best when lots of data are available. Decision forests typically infer faster than comparable neural networks. Decision forest models are composed of decision trees.
 
-A decision tree is a model composed of a collection of "questions" organized hierarchically in the shape of a tree. The questions are usually called a condition, a split, or a test. Each non-leaf node contains a condition, and each leaf node contains a prediction.
+A decision tree is a model composed of a collection of "questions" organised hierarchically in the shape of a tree. The questions are usually called a condition, a split, or a test. Each non-leaf node contains a condition, and each leaf node contains a prediction.
 Inference of a decision tree model is computed by routing an example from the root (at the top) to one of the leaf nodes (at the bottom) according to the conditions. The value of the reached leaf is the decision tree's prediction. The set of visited nodes is called the inference path.
 
 Types of conditions: 
@@ -78,7 +78,7 @@ Non-binary conditions have more than two possible outcomes. Therefore, non-binar
 
 Deep Learning
 =============
-Deep learning teaches computers to process data in a way inspired by the human brain, utilizing artificial neurons. Deep learning models are computer files that data scientists have trained to perform tasks using an algorithm or a predefined set of steps. Businesses use deep learning models to analyze data and make predictions in various applications.
+Deep learning teaches computers to process data in a way inspired by the human brain, utilising artificial neurons. Deep learning models are computer files that data scientists have trained to perform tasks using an algorithm or a predefined set of steps. Businesses use deep learning models to analyse data and make predictions in various applications.
 
 Uses of Deep Learning
 ---------------------
@@ -99,7 +99,7 @@ Grayscale Images:
 - Colour Depth: Typically uses 8 bits per pixel for 256 different shades.
 - Usage: Common in photography, medical imaging, and applications requiring detailed brightness levels.
 
--> Grayscale images are most commonly utilized.
+-> Grayscale images are most commonly utilised.
 
 Deep Learning Architectures:
 ----------------------------
@@ -109,14 +109,14 @@ Deep Learning Architectures:
 
 Object Detection vs. Object Recognition:
 ----------------------------------------
-- Object Detection: Identifies and localizes objects using bounding boxes.
-- Object Recognition: Categorizes objects without precise localization.
+- Object Detection: Identifies and localises objects using bounding boxes.
+- Object Recognition: Categorizes objects without precise localisation.
 
 Recommendation System
 =====================
 - A recommendation system helps users find compelling content in a large corpus
-# Embedding: A mapping from a discrete set (in this case, the set of queries, or the set of items to recommend) to a vector space called the embedding space. Many recommendation systems rely on learning an appropriate embedding representation of the queries and items.
-The primary components of a recommender system: candidate generation, scoring, and re-ranking.
+# Embedding: A mapping from a discrete set (in this case, the set of queries or the set of items to recommend) to a vector space called the embedding space. Many recommendation systems rely on learning an appropriate embedding representation of the queries and items.
+The primary components of a recommender system are candidate generation, scoring, and re-ranking.
 
 Feed-Forward Neural Network (FNN)
 =================================
@@ -129,7 +129,7 @@ Structure:
 
 Backpropagation
 ===============
-An iterative algorithm that minimizes the cost function by adjusting weights and biases. During each epoch, the model learns by adapting these parameters to reduce loss.
+An iterative algorithm that minimises the cost function by adjusting weights and biases. During each epoch, the model learns by adapting these parameters to reduce loss.
 
 Activation Function: Rectified Linear Unit (ReLU)
 -------------------------------------------------
@@ -142,7 +142,7 @@ model.add(Dense(16, activation="relu"))  # Second Hidden Layer
 
 Adam Optimizer
 ==============
-The Adaptive Moment Estimation (Adam) algorithm is efficient for optimization in gradient descent, particularly with large datasets.
+The Adaptive Moment Estimation (Adam) algorithm is efficient for optimisation in gradient descent, particularly with large datasets.
 
 Epoch
 =====
@@ -238,12 +238,12 @@ Key-Concepts behind Gen-AI
 Image Generation is a process of using deep learning algorithms such as VAEs, GANs, and, more recently, Stable Diffusion to create new images that are visually similar to real-world images. Image Generation can be used for data augmentation to improve the performance of machine learning models, as well as in creating art, generating product images, and more.
 Example: MidJourney, DALL-E
 
-Video Generation involves deep learning methods such as GANs and Video Diffusion to generate new videos by predicting frames based on previous frames. Video Generation can be often seen in use with Speech Generation. The models used for speech generation can be powered by Transformers. Speech Generation can be used in text-to-speech conversion, virtual assistants, and voice cloning. 
+Video Generation involves deep learning methods such as GANs and Video Diffusion to generate new videos by predicting frames based on previous frames. Video Generation can often be seen in use with Speech Generation. The models used for speech generation can be powered by Transformers. Speech Generation can be used in text-to-speech conversion, virtual assistants, and voice cloning. 
 Example: DeepBrain and Synthesia
 
 Encoder-Decoder Architecture
 ----------------------------
-1. Encoder: The encoder is responsible for processing the input sequence (e.g., a sentence or a sequence of data) and converting it into a fixed-size representation. The key function of the encoder is to summarize the input sequence into a more abstract form. The output of the encoder is the hidden or context vector, which captures the essence of the entire input sequence.
+1. Encoder: The encoder is responsible for processing the input sequence (e.g., a sentence or a sequence of data) and converting it into a fixed-size representation. The key function of the encoder is to summarise the input sequence into a more abstract form. The output of the encoder is the hidden or context vector, which captures the essence of the entire input sequence.
 
 2. Hidden Vector: The hidden vector (also called the context vector) is the condensed representation of the input sequence generated by the encoder. This vector holds the crucial information about the input sequence in a form that can be passed to the decoder.
 
@@ -252,7 +252,7 @@ Encoder-Decoder Architecture
 Workflow:
 --------
 - Encoder: Processes the input sequence and outputs the hidden vector.
-- Hidden Vector: Contains the summarized representation of the input.
+- Hidden Vector: Contains the summarised representation of the input.
 - Decoder: Uses the hidden vector to generate the output sequence (one token at a time or all at once, depending on the architecture).
 
 Real-life application of Encoder-Decoder
@@ -262,7 +262,7 @@ Real-life application of Encoder-Decoder
 
 Generative Adversarial Networks (GANs)
 ====================================== 
-Generative Adversarial Networks (GANs) are a class of machine learning models designed for generating new data that resembles a given dataset. GANs are made up of two neural networks, a discriminator and a generator. They use adversarial training to produce artificial data that is identical to actual data.
+Generative Adversarial Networks (GANs) are a class of machine learning models designed for generating new data that resembles a given dataset. GANs are made up of two neural networks: a discriminator and a generator. They use adversarial training to produce artificial data that is identical to actual data.
  
 Key Components of GANs
 ----------------------
@@ -278,7 +278,7 @@ Discriminator (D):
 - It’s a binary classifier that outputs a probability indicating whether the input is real or fake.
 - The goal of the discriminator is to get better at telling apart real data from the fake data generated by the generator.
 
-* During generator training, gradients propagate through the discriminator network to the generator network (although the discriminator does not update its weights during generator training). So the weights in the discriminator network influence the updates to the generator network.
+* During generator training, gradients propagate through the discriminator network to the generator network (although the discriminator does not update its weights during generator training). So, the weights in the discriminator network influence the updates to the generator network.
 
 * A typical GAN alternates between training the discriminator and training the generator.
 
