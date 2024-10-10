@@ -228,9 +228,9 @@ Discriminator (D):
 
 * A typical GAN alternates between training the discriminator and training the generator.
 
-* While a GAN can use the same loss for both generator and discriminator training (or the same loss differing only in sign), it's not required. In fact it's more common to use different losses for the discriminator and the generator.
+* While a GAN can use the same loss for both generator and discriminator training (or the same loss differing only in sign), it's not required. It's more common to use different losses for the discriminator and the generator.
 
-
+@ Small Language Models (SLMs) focus on specialised tasks with less data. Retrieval-augmented generation (RAG) enhances these models by pulling in external information for more accurate results. AI Agents use generative AI to autonomously perform tasks such as writing or research. Together, they represent cutting-edge advancements in automation and creativity.
 
 
 
