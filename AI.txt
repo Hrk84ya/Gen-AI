@@ -262,6 +262,10 @@ Benefits of Transformers:
 
 
 
+df.sample(n): to return n random rows from the data
+
+
+
 
 
 
