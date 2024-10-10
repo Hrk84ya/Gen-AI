@@ -2,6 +2,7 @@ Generative AI
 =============
 
 Data + Algorithms = AI Machines
+Large size and High diversity dataset would be ideal to use for ML
 
 Real-world Examples:
 --------------------
@@ -31,6 +32,18 @@ Types of Machine Learning:
 - Supervised Learning - models are trained on labelled data
 - Unsupervised Learning - models find patterns in unlabeled data
 - Reinforcement Learning - agents learn by interacting with their environment and receiving rewards or penalties
+
+@ A regression model predicts a numeric value. For example, a weather model that predicts the amount of rain, in inches or millimetres, is a regression model.
+@ Classification models predict the likelihood that something belongs to a category. Unlike regression models, whose output is a number, classification models output a value that states whether or not something belongs to a particular category. For example, classification models are used to predict if an email is spam or if a photo contains a cat.
+
+Classification models are divided into two groups: binary classification and multiclass classification. Binary classification models output a value from a class that contains only two values. Multiclass classification models output a value from a class that contains more than two values.
+
+# Once we're satisfied with the results from evaluating the model, we can use the model to make predictions, called inferences, on unlabeled examples.
+
+Decision Forest
+Decision forests are most effective when you have a tabular dataset (data you might represent in a spreadsheet, csv file, or database table). Tabular data is one of the most common data formats, and decision forests should be your “go-to” solution for modeling it. Decision forests perform best when lots of data is available.
+
+
 
 Deep Learning
 =============
