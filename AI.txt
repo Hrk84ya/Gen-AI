@@ -200,6 +200,10 @@ Workflow:
 - Hidden Vector: Contains the summarized representation of the input.
 - Decoder: Uses the hidden vector to generate the output sequence (one token at a time or all at once, depending on the architecture).
 
+Real-life application of Encoder-Decoder
+- Google machine translation
+- Speech Recognition
+- Time Series Analysis
 
 
 
