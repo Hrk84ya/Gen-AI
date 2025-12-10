@@ -1,0 +1,50 @@
+# Core ML and NLP libraries
+torch>=1.9.0
+transformers>=4.15.0
+datasets>=1.18.0
+tokenizers>=0.10.0
+scikit-learn>=1.0.0
+numpy>=1.21.0
+pandas>=1.3.0
+
+# NLP specific libraries
+nltk>=3.6.0
+spacy>=3.4.0
+textblob>=0.17.0
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.12.0
+
+# Web framework and API
+flask>=2.0.0
+fastapi>=0.70.0
+uvicorn>=0.15.0
+requests>=2.26.0
+
+# Database and storage
+sqlite3
+sqlalchemy>=1.4.0
+redis>=3.5.0
+
+# Visualization and monitoring
+matplotlib>=3.4.0
+seaborn>=0.11.0
+plotly>=5.0.0
+wandb>=0.12.0
+
+# Testing and development
+pytest>=6.2.0
+pytest-cov>=3.0.0
+black>=21.0.0
+flake8>=4.0.0
+
+# Deployment and containerization
+gunicorn>=20.1.0
+docker>=5.0.0
+
+# Optional: GPU support
+# torch-audio>=0.9.0
+# torch-vision>=0.10.0
+
+# Optional: Advanced NLP models
+# sentence-transformers>=2.1.0
+# openai>=0.20.0
