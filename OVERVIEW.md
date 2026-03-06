@@ -56,6 +56,7 @@ Production-ready skills and cutting-edge research.
 | **[Speech & Audio](./04-Advanced/10-Speech-Audio/)** | Spectrograms, MFCCs, CTC speech recognition, TTS | 1 week |
 | **[Bayesian Deep Learning](./04-Advanced/11-Bayesian-Deep-Learning/)** | MC Dropout, Bayes-by-Backprop, deep ensembles, evidential DL | 1 week |
 | **[Explainability / XAI](./04-Advanced/12-Explainability-XAI/)** | Grad-CAM, Integrated Gradients, LIME, SHAP, fairness | 1 week |
+| **[AI Ethics](./04-Advanced/13-AI-Ethics/)** | Bias detection, fairness constraints, DP-SGD, membership inference, safety | 1 week |
 
 ## 🛠️ Practical Projects
 

@@ -54,6 +54,7 @@ This repository is designed as a complete learning journey, taking you from abso
 - [4.10 Speech & Audio Processing](./04-Advanced/10-Speech-Audio/)
 - [4.11 Bayesian Deep Learning](./04-Advanced/11-Bayesian-Deep-Learning/)
 - [4.12 Explainability & Interpretability (XAI)](./04-Advanced/12-Explainability-XAI/)
+- [4.13 AI Ethics](./04-Advanced/13-AI-Ethics/)
 
 ### 🛠 **Practical Projects**
 - [Project 1: Image Classifier](./Projects/01-Image-Classifier/)

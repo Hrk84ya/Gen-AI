@@ -203,6 +203,12 @@ Track your journey with our milestone system:
 - [ ] LIME, SHAP, and fairness metrics
 - [ ] **Milestone**: Explain a CNN prediction with Grad-CAM and SHAP
 
+### Week 33: AI Ethics
+- [ ] Complete [AI Ethics](./04-Advanced/13-AI-Ethics/)
+- [ ] Bias detection, fairness-constrained training, model cards
+- [ ] Differential privacy (DP-SGD), membership inference, safety guardrails
+- [ ] **Milestone**: Train a fair classifier and audit it with a membership inference attack
+
 **🎯 Phase 4 Goal**: Production-ready skills and research awareness
 
 ---
