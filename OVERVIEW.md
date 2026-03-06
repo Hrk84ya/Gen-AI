@@ -50,6 +50,9 @@ Production-ready skills and cutting-edge research.
 | **[AI Agents & RAG](./04-Advanced/04-AI-Agents/)** | Autonomous systems, retrieval-augmented generation | 2 weeks |
 | **[Production](./04-Advanced/05-Production/)** | Deployment, monitoring, MLOps | 1 week |
 | **[Research](./04-Advanced/06-Research/)** | Latest papers, emerging trends | 1 week |
+| **[Reinforcement Learning](./04-Advanced/07-Reinforcement-Learning/)** | Q-Learning, DQN, PPO, multi-agent RL | 1 week |
+| **[Graph Neural Networks](./04-Advanced/08-Graph-Neural-Networks/)** | GCN, GraphSAGE, GAT, link prediction | 1 week |
+| **[Recommendation Systems](./04-Advanced/09-Recommendation-Systems/)** | Collaborative filtering, NCF, two-tower | 1 week |
 
 ## 🛠️ Practical Projects
 

@@ -167,6 +167,24 @@ Track your journey with our milestone system:
 - [ ] Implement novel techniques
 - [ ] **Milestone**: Stay current with research
 
+### Week 27: Reinforcement Learning
+- [ ] Complete [Reinforcement Learning](./04-Advanced/07-Reinforcement-Learning/)
+- [ ] Tabular methods (Q-Learning, SARSA, Monte Carlo)
+- [ ] Deep RL (DQN, PPO, A2C)
+- [ ] **Milestone**: Train an agent to solve CartPole with PPO
+
+### Week 28: Graph Neural Networks
+- [ ] Complete [Graph Neural Networks](./04-Advanced/08-Graph-Neural-Networks/)
+- [ ] Implement GCN, GraphSAGE, GAT from scratch
+- [ ] Node classification and link prediction
+- [ ] **Milestone**: Classify nodes on a citation graph
+
+### Week 29: Recommendation Systems
+- [ ] Complete [Recommendation Systems](./04-Advanced/09-Recommendation-Systems/)
+- [ ] Collaborative filtering and matrix factorization
+- [ ] Neural Collaborative Filtering and two-tower models
+- [ ] **Milestone**: Build and evaluate a recommender with NDCG metrics
+
 **🎯 Phase 4 Goal**: Production-ready skills and research awareness
 
 ---

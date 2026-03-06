@@ -48,6 +48,9 @@ This repository is designed as a complete learning journey, taking you from abso
 - [4.4 AI Agents & RAG](./04-Advanced/04-AI-Agents/)
 - [4.5 Production Deployment](./04-Advanced/05-Production/)
 - [4.6 Latest Research & Trends](./04-Advanced/06-Research/)
+- [4.7 Reinforcement Learning](./04-Advanced/07-Reinforcement-Learning/)
+- [4.8 Graph Neural Networks](./04-Advanced/08-Graph-Neural-Networks/)
+- [4.9 Recommendation Systems](./04-Advanced/09-Recommendation-Systems/)
 
 ### 🛠 **Practical Projects**
 - [Project 1: Image Classifier](./Projects/01-Image-Classifier/)
