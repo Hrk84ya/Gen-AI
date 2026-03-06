@@ -53,6 +53,9 @@ Production-ready skills and cutting-edge research.
 | **[Reinforcement Learning](./04-Advanced/07-Reinforcement-Learning/)** | Q-Learning, DQN, PPO, multi-agent RL | 1 week |
 | **[Graph Neural Networks](./04-Advanced/08-Graph-Neural-Networks/)** | GCN, GraphSAGE, GAT, link prediction | 1 week |
 | **[Recommendation Systems](./04-Advanced/09-Recommendation-Systems/)** | Collaborative filtering, NCF, two-tower | 1 week |
+| **[Speech & Audio](./04-Advanced/10-Speech-Audio/)** | Spectrograms, MFCCs, CTC speech recognition, TTS | 1 week |
+| **[Bayesian Deep Learning](./04-Advanced/11-Bayesian-Deep-Learning/)** | MC Dropout, Bayes-by-Backprop, deep ensembles, evidential DL | 1 week |
+| **[Explainability / XAI](./04-Advanced/12-Explainability-XAI/)** | Grad-CAM, Integrated Gradients, LIME, SHAP, fairness | 1 week |
 
 ## 🛠️ Practical Projects
 

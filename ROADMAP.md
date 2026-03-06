@@ -185,6 +185,24 @@ Track your journey with our milestone system:
 - [ ] Neural Collaborative Filtering and two-tower models
 - [ ] **Milestone**: Build and evaluate a recommender with NDCG metrics
 
+### Week 30: Speech & Audio Processing
+- [ ] Complete [Speech & Audio](./04-Advanced/10-Speech-Audio/)
+- [ ] Spectrograms, Mel filterbanks, MFCCs from scratch
+- [ ] Audio classification CNN and CTC speech recognition
+- [ ] **Milestone**: Classify audio clips and run a CTC forward pass
+
+### Week 31: Bayesian Deep Learning
+- [ ] Complete [Bayesian Deep Learning](./04-Advanced/11-Bayesian-Deep-Learning/)
+- [ ] MC Dropout and Bayes-by-Backprop
+- [ ] Deep ensembles and evidential deep learning
+- [ ] **Milestone**: Compare uncertainty estimates on in- vs out-of-distribution data
+
+### Week 32: Explainability & Interpretability (XAI)
+- [ ] Complete [Explainability / XAI](./04-Advanced/12-Explainability-XAI/)
+- [ ] Saliency maps, Grad-CAM, Integrated Gradients
+- [ ] LIME, SHAP, and fairness metrics
+- [ ] **Milestone**: Explain a CNN prediction with Grad-CAM and SHAP
+
 **🎯 Phase 4 Goal**: Production-ready skills and research awareness
 
 ---
